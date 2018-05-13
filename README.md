@@ -1,23 +1,31 @@
 MicroDollar: $1 Gesture Recognizer C++ port with optimizations for embedded hardware
 ======================
-This library makes it possible to use the template-based $1 gesture recognizer on
+MicroDollar makes it possible to use the template-based $1 gesture recognizer on
 resource-constrained microcontrollers, such as the ESP8266, Arduino Uno, and others.
 
-Initially developed for:
-[SpeckleSense](http://specklesense.media.mit.edu)/[SpeckleEye](http://specklesense.org). Research papers: 
-* [SpeckleSense: Fast, Precise, Low-cost and Compact Motion Sensing using Laser Speckle](https://doi.org/10.1145/2047196.2047261)
-* [SpeckleEye: Gestural Interaction for Embedded Electronics in Ubiquitous Computing](https://doi.org/10.1145/2212776.2223782)
-        
-Based on:
-[$1 Unistroke Recognizer](http://depts.washington.edu/madlab/proj/dollar/)
-Research paper:
-* [Gestures without libraries, toolkits or training: a $1 recognizer for user interface prototypes](https://doi.org/10.1145/1294211.1294238)**
+This library was initially developed for the [SpeckleSense/SpeckleEye](http://olwal.com/#high-speed_embedded_motion_sensing) research projects at MIT. 
+
+SpeckleSense exploits laser speckle sensing for precise, high-speed, low-latency motion tracking, which can be applied to a wide range of interaction scenarios and devices.
+
+[![SpeckleEye - Gestural Remote Interaction with Cabinet](https://i.vimeocdn.com/video/434556108_260x146.jpg)](https://vimeo.com/63967600)
+[![SpeckleEye - Gestural Remote Interaction with Camera](https://i.vimeocdn.com/video/434555965_260x146.jpg)](https://vimeo.com/64055145)
+
+The work is based on the [$1 Unistroke Recognizer project](http://depts.washington.edu/madlab/proj/dollar/) at University of Washington/Microsoft Research.
 
 Repository Contents
 -------------------
 * **/examples**: Example Arduino sketches for the library (.ino). Run these from the Arduino IDE.
 * **/src**:  Source files for the library (.cpp, .h). Not dependent on Arduino
 * **library.properties**: General library properties for the Arduino package manager.
+
+Research Papers
+-------------------
+* [SpeckleSense: Fast, Precise, Low-cost and Compact Motion Sensing using Laser Speckle](https://doi.org/10.1145/2047196.2047261). Zizka, J., Olwal, A., and Raskar, R. Proceedings of UIST 2011.
+* [SpeckleEye: Gestural Interaction for Embedded Electronics in Ubiquitous Computing](https://doi.org/10.1145/2212776.2223782). Olwal, A., Bardagjy, A., Zizka, J., and Raskar, R. CHI 2012 Extended Abstracts.
+        
+Original paper:
+* [Gestures without libraries, toolkits or training: a $1 recognizer for user interface prototypes](https://doi.org/10.1145/1294211.1294238). Wobbrock, J., Wilson, A. and Li, Y. Proceedings of UIST 2007.
+
 
 Version History
 ---------------
