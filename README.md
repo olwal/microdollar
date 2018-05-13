@@ -1,21 +1,19 @@
 MicroDollar: $1 Gesture Recognizer C++ port with optimizations for embedded hardware
 ======================
-MicroDollar makes it possible to use the template-based $1 gesture recognizer on
-resource-constrained microcontrollers, such as the ESP8266, Arduino Uno, and others.
+MicroDollar makes it possible to use the template-based $1 gesture recognizer on resource-constrained microcontrollers, such as the ESP8266, Arduino Uno, and others. This library is based on the [$1 Unistroke Recognizer project](http://depts.washington.edu/madlab/proj/dollar/) from University of Washington/Microsoft Research.
 
-This library was initially developed for the [SpeckleSense/SpeckleEye](http://olwal.com/#high-speed_embedded_motion_sensing) research projects at MIT. 
+The library was initially developed for the [SpeckleSense/SpeckleEye](http://olwal.com/#high-speed_embedded_motion_sensing) research projects at MIT. 
 
 SpeckleSense exploits laser speckle sensing for precise, high-speed, low-latency motion tracking, which can be applied to a wide range of interaction scenarios and devices.
 
 [![SpeckleEye - Gestural Remote Interaction with Cabinet](https://i.vimeocdn.com/video/434556108_260x146.jpg)](https://vimeo.com/63967600)
 [![SpeckleEye - Gestural Remote Interaction with Camera](https://i.vimeocdn.com/video/434555965_260x146.jpg)](https://vimeo.com/64055145)
 
-The work is based on the [$1 Unistroke Recognizer project](http://depts.washington.edu/madlab/proj/dollar/) at University of Washington/Microsoft Research.
-
 Repository Contents
 -------------------
-* **/examples**: Example Arduino sketches for the library (.ino). Run these from the Arduino IDE.
-* **/src**:  Source files for the library (.cpp, .h). Not dependent on Arduino
+* **/examples/Arduino**: Example Arduino sketches for the library (.ino). Upload these to a microcontroller using the Arduino IDE.
+* **/examples/Arduino**: Example Processing sketches for the Arduino examples (.pde). Run these from the Processing IDE.
+* **/src**:  Platform-independent source files for the library (.cpp, .h). 
 * **library.properties**: General library properties for the Arduino package manager.
 
 Research Papers
