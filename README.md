@@ -20,11 +20,11 @@ Repository Contents
 
 Research Papers
 -------------------
-* [SpeckleSense: Fast, Precise, Low-cost and Compact Motion Sensing using Laser Speckle](https://doi.org/10.1145/2047196.2047261). Zizka, J., Olwal, A., and Raskar, R. Proceedings of UIST 2011.
-* [SpeckleEye: Gestural Interaction for Embedded Electronics in Ubiquitous Computing](https://doi.org/10.1145/2212776.2223782). Olwal, A., Bardagjy, A., Zizka, J., and Raskar, R. CHI 2012 Extended Abstracts.
+* [SpeckleEye: Gestural Interaction for Embedded Electronics in Ubiquitous Computing](http://olwal.com/projects/research/specklesense/olwal_speckleeye_chi_2012.pdf). Olwal, A., Bardagjy, A., Zizka, J., and Raskar, R. CHI 2012 Extended Abstracts. [ACM Digital Library](https://doi.org/10.1145/2212776.2223782) 
+* [SpeckleSense: Fast, Precise, Low-cost and Compact Motion Sensing using Laser Speckle](http://olwal.com/projects/research/specklesense/zizka_specklesense_uist_2011.pdf). Zizka, J., Olwal, A., and Raskar, R. Proceedings of UIST 2011. [ACM Digital Library](https://doi.org/10.1145/2047196.2047261)
         
 Original paper:
-* [Gestures without libraries, toolkits or training: a $1 recognizer for user interface prototypes](https://doi.org/10.1145/1294211.1294238). Wobbrock, J., Wilson, A. and Li, Y. Proceedings of UIST 2007.
+* [Gestures without libraries, toolkits or training: a $1 recognizer for user interface prototypes](http://faculty.washington.edu/wobbrock/pubs/uist-07.01.pdf). Wobbrock, J., Wilson, A. and Li, Y. Proceedings of UIST 2007. [ACM Digital Library](https://doi.org/10.1145/1294211.1294238)
 
 
 Version History
