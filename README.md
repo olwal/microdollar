@@ -1,4 +1,4 @@
-# MicroDollar: $1 Gesture Recognizer C++ port with optimizations for embedded hardware
+MicroDollar: $1 Gesture Recognizer C++ port with optimizations for embedded hardware
 ======================
 This library makes it possible to use the template-based $1 gesture recognizer on
 resource-constrained microcontrollers, such as the ESP8266, Arduino Uno, and others.
