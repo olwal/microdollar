@@ -16,9 +16,9 @@ Research paper:
 
 Repository Contents
 -------------------
-**/examples**: Example sketches for the library (.ino). Run these from the Arduino IDE.
-**/src**:  Source files for the library (.cpp, .h).
-**library.properties**: General library properties for the Arduino package manager.
+* **/examples**: Example sketches for the library (.ino). Run these from the Arduino IDE.
+* **/src**:  Source files for the library (.cpp, .h).
+* **library.properties**: General library properties for the Arduino package manager.
 
 Version History
 ---------------
