@@ -13,12 +13,11 @@ Based on:
 Research paper:
 * [Gestures without libraries, toolkits or training: a $1 recognizer for user interface prototypes](https://doi.org/10.1145/1294211.1294238)**
 
-
 Repository Contents
 -------------------
-**/examples**: Example sketches for the library (.ino). Run these from the Arduino IDE.
-**/src**:  Source files for the library (.cpp, .h).
-**library.properties**: General library properties for the Arduino package manager.
+* **/examples**: Example Arduino sketches for the library (.ino). Run these from the Arduino IDE.
+* **/src**:  Source files for the library (.cpp, .h). Not dependent on Arduino
+* **library.properties**: General library properties for the Arduino package manager.
 
 Version History
 ---------------
