@@ -12,7 +12,7 @@ SpeckleSense exploits laser speckle sensing for precise, high-speed, low-latency
 Repository Contents
 -------------------
 * **/examples/Arduino**: Example Arduino sketches for the library (.ino). Upload these to a microcontroller using the Arduino IDE.
-* **/examples/Arduino**: Example Processing sketches for the Arduino examples (.pde). Run these from the Processing IDE.
+* **/examples/Processing**: Example Processing sketches for the Arduino examples (.pde). Run these from the Processing IDE.
 * **/src**:  Platform-independent source files for the library (.cpp, .h). 
 * **library.properties**: General library properties for the Arduino package manager.
 
